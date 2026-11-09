@@ -1,0 +1,18 @@
+split,target,model,correct,judged,acc,ci_lo,ci_hi,extra
+official-test,family,logreg[skin-hsv],569,910,0.6253,0.5934,0.6561,
+official-test,family,logreg[all-signals],605,910,0.6648,0.6335,0.6948,
+official-test,family,knn-3[skin-hsv],501,910,0.5505,0.5181,0.5826,
+official-test,modifier,softmax,317,910,0.3484,0.3181,0.3799,
+official-test,modifier,knn-3,304,910,0.3341,0.3042,0.3654,
+official-test,season,softmax,161,910,0.1769,0.1535,0.2031,"fam 571/910, adj 391/910"
+official-test,season,knn-5,200,910,0.2198,0.1941,0.2478,
+official-test,season,rule,120,902,0.1330,0.1124,0.1568,8 abstain
+official-test,4-season,rule,312,902,0.3459,0.3156,0.3775,
+official-test,4-season,softmax,382,910,0.4198,0.3881,0.4521,
+official-test,modifier,rule,273,910,0.3000,0.2711,0.3306,
+official-test,family,rule,467,902,0.5177,0.4851,0.5502,8 abstain
+10-fold,family,logreg[skin-hsv],2891,4911,0.5887,0.5749,0.6024,folds 55%-62%
+10-fold,family,logreg[all-signals],3124,4911,0.6361,0.6226,0.6495,folds 61%-66%
+10-fold,family,knn-3[skin-hsv],2938,4911,0.5982,0.5845,0.6119,folds 57%-62%
+10-fold,modifier,softmax,1678,4911,0.3417,0.3285,0.3551,folds 33%-36%
+10-fold,season,softmax,835,4911,0.1700,0.1598,0.1808,folds 15%-19%

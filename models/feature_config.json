@@ -1,0 +1,100 @@
+{
+  "columns": [
+    "skin_red_dist",
+    "skin_s",
+    "skin_v",
+    "iris_h",
+    "iris_s",
+    "iris_v",
+    "hair_h",
+    "hair_s",
+    "hair_v",
+    "has_iris",
+    "has_hair",
+    "contrast",
+    "skin_L",
+    "skin_a",
+    "skin_b",
+    "iris_L",
+    "iris_a",
+    "iris_b",
+    "hair_L",
+    "hair_a",
+    "hair_b"
+  ],
+  "n_train": 4001,
+  "n_test": 910,
+  "models": {
+    "family": {
+      "file": "family_pipeline.joblib",
+      "best_C": 10.0,
+      "test_ok": 616,
+      "test_n": 910,
+      "test_acc": 0.676923076923077,
+      "ci_lo": 0.6458492284317383,
+      "ci_hi": 0.7065094297864913,
+      "train_cv": 0.6435892634207241,
+      "classes": [
+        "Cool",
+        "Warm"
+      ]
+    },
+    "modifier": {
+      "file": "modifier_pipeline.joblib",
+      "best_C": 10.0,
+      "test_ok": 437,
+      "test_n": 910,
+      "test_acc": 0.48021978021978023,
+      "ci_lo": 0.44790987504144014,
+      "ci_hi": 0.512695989257143,
+      "train_cv": 0.4633882646691635,
+      "classes": [
+        "BRIGHT",
+        "DEEP",
+        "LIGHT",
+        "SOFT",
+        "TRUE"
+      ]
+    },
+    "season": {
+      "file": "season_pipeline.joblib",
+      "best_C": 0.01,
+      "test_ok": 276,
+      "test_n": 910,
+      "test_acc": 0.3032967032967033,
+      "ci_lo": 0.274307871360551,
+      "ci_hi": 0.3339393347198025,
+      "train_cv": 0.28367852684144823,
+      "classes": [
+        "BRIGHT SPRING",
+        "BRIGHT WINTER",
+        "COOL SUMMER",
+        "COOL WINTER",
+        "DEEP AUTUMN",
+        "DEEP WINTER",
+        "LIGHT SPRING",
+        "LIGHT SUMMER",
+        "SOFT AUTUMN",
+        "SOFT SUMMER",
+        "WARM AUTUMN",
+        "WARM SPRING"
+      ]
+    },
+    "4-season": {
+      "file": "4-season_pipeline.joblib",
+      "best_C": 1.0,
+      "test_ok": 493,
+      "test_n": 910,
+      "test_acc": 0.5417582417582417,
+      "ci_lo": 0.5092771505439311,
+      "ci_hi": 0.5738882470479492,
+      "train_cv": 0.4991201622971285,
+      "classes": [
+        "AUTUMN",
+        "SPRING",
+        "SUMMER",
+        "WINTER"
+      ]
+    }
+  }
+}

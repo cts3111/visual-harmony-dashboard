@@ -1,0 +1,12 @@
+# Dashboard (Streamlit) — pinned core deps match the research environment.
+# NOTE: keep mediapipe at 0.10.35 — 1.0.x crashes on macOS at startup
+# (Metal GPU delegate, "DrishtiMetalHelper ... Service is unavailable").
+# On Streamlit Cloud (Linux) this pin stays correct and safe.
+mediapipe==0.10.35
+opencv-contrib-python==5.0.0.93
+numpy==2.0.2
+scikit-learn==1.6.1
+scipy
+joblib
+streamlit
+plotly

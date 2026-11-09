@@ -1,0 +1,134 @@
+[
+  {
+    "file": "cool_winter.jpg",
+    "season": "COOL WINTER",
+    "angle_offset_deg": 2.2,
+    "source_box": [
+      187,
+      213,
+      169,
+      169
+    ]
+  },
+  {
+    "file": "bright_winter.jpg",
+    "season": "BRIGHT WINTER",
+    "angle_offset_deg": 2.9,
+    "source_box": [
+      425,
+      115,
+      158,
+      158
+    ]
+  },
+  {
+    "file": "deep_winter.jpg",
+    "season": "DEEP WINTER",
+    "angle_offset_deg": 3.8,
+    "source_box": [
+      141,
+      418,
+      152,
+      152
+    ]
+  },
+  {
+    "file": "bright_spring.jpg",
+    "season": "BRIGHT SPRING",
+    "angle_offset_deg": 4.9,
+    "source_box": [
+      592,
+      128,
+      157,
+      157
+    ]
+  },
+  {
+    "file": "deep_autumn.jpg",
+    "season": "DEEP AUTUMN",
+    "angle_offset_deg": 7.0,
+    "source_box": [
+      97,
+      657,
+      152,
+      152
+    ]
+  },
+  {
+    "file": "warm_spring.jpg",
+    "season": "WARM SPRING",
+    "angle_offset_deg": 0.1,
+    "source_box": [
+      859,
+      207,
+      151,
+      151
+    ]
+  },
+  {
+    "file": "cool_summer.jpg",
+    "season": "COOL SUMMER",
+    "angle_offset_deg": 7.0,
+    "source_box": [
+      829,
+      812,
+      175,
+      175
+    ]
+  },
+  {
+    "file": "warm_autumn.jpg",
+    "season": "WARM AUTUMN",
+    "angle_offset_deg": 0.7,
+    "source_box": [
+      177,
+      872,
+      168,
+      168
+    ]
+  },
+  {
+    "file": "light_summer.jpg",
+    "season": "LIGHT SUMMER",
+    "angle_offset_deg": 1.4,
+    "source_box": [
+      966,
+      634,
+      157,
+      157
+    ]
+  },
+  {
+    "file": "soft_summer.jpg",
+    "season": "SOFT SUMMER",
+    "angle_offset_deg": 4.4,
+    "source_box": [
+      609,
+      909,
+      171,
+      171
+    ]
+  },
+  {
+    "file": "light_spring.jpg",
+    "season": "LIGHT SPRING",
+    "angle_offset_deg": 3.0,
+    "source_box": [
+      945,
+      417,
+      117,
+      117
+    ]
+  },
+  {
+    "file": "soft_autumn.jpg",
+    "season": "SOFT AUTUMN",
+    "angle_offset_deg": 4.7,
+    "source_box": [
+      462,
+      954,
+      117,
+      117
+    ]
+  }
+]

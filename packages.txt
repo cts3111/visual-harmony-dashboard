@@ -1,0 +1,4 @@
+# System libraries for opencv-contrib-python (non-headless) on the Cloud's Linux image.
+# Without these, `import cv2` fails at runtime with ImportError (libGL.so.1 / libglib).
+libgl1
+libglib2.0-0

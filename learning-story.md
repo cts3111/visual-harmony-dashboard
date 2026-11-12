@@ -20,6 +20,7 @@
 - Public app then errored at startup: `ImportError` at `service.py:18` (`import cv2`), original message redacted in the UI.
 - Diagnosis: opencv-contrib-python 5.0.0.93 ships abi3 wheels, so the install succeeds on Python 3.14; the failure is at runtime. The Cloud image lacks the system graphics libs the non-headless build links against (libGL.so.1, libglib). Same classic failure seen in Streamlit forums for any opencv app.
 - Fix: added `packages.txt` (apt deps `libgl1`, `libglib2.0-0`), which Streamlit Cloud installs before pip. Kept the non-headless opencv pin because mediapipe depends on opencv-contrib-python; a headless swap would create a conflicting second cv2 install.
+- Gotcha found on the first rebuild: the Cloud installer pipes `packages.txt` through `xargs apt install -y` verbatim, so comment lines break it ("unmatched single quote", comment words treated as package names, apt aborts and installs nothing). Rule for this repo: `packages.txt` must contain bare package names only, one per line, no comments.
 
 ## 2026-11-12 — Repo visibility: private → public
 

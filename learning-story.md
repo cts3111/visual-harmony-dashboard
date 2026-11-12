@@ -26,3 +26,8 @@
 
 - Flipped github.com/cts3111/visual-harmony-dashboard to PUBLIC. Reason (user): Streamlit Cloud's free tier allows only one private repo, which the ticket-profit-optimizer now uses; the dashboard goes public so both keep streaming.
 - Pre-flight: cloned and scanned the repo for PII (names, orgs, handles) before flipping: clean.
+
+## 2026-11-12 — Shared style conventions with the tickets app (site theme)
+
+- User asked both Streamlit apps to follow the same style conventions. Adopted the portfolio site's restyle tokens in a new `.streamlit/config.toml` (this repo previously had no theme config, so it ran on Streamlit defaults): green #1f7a3d primary, #fafafa base, #f2f1ed secondary, slate #1e252c text, sans serif.
+- Chart palette in app.py recolored to the site set: green/teal/sage categorical slots, diverging positive pole = teal, green heatmap ramp (replaces the blue ramp), slate ink/muted, #fafafa surface. `FONT` already system sans.

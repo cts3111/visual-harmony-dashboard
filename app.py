@@ -25,21 +25,22 @@ ARMOCROMIA = RESULTS / "armocromia"
 SAMPLES = ROOT / "data" / "wheel_faces"
 
 # ---------------------------------------------------------------------------
-# Palette (validated: scripts/validate_palette.js, light mode, surface #fcfcfb)
+# Palette (matches the portfolio site: green primary, teal/lime accents,
+# slate ink on a near-white surface)
 # ---------------------------------------------------------------------------
-BLUE = "#2a78d6"       # categorical slot 1 / emphasis / negative
-ORANGE = "#eb6834"     # categorical slot 2
-AQUA = "#1baf7a"       # categorical slot 3 (relief rule: direct labels)
-RED = "#e34948"        # diverging positive pole
-GRAY_FILL = "#c3c2b7"  # de-emphasis fill
-GRID = "#e1e0d9"       # gridline hairline
-INK = "#0b0b0b"        # primary ink
-INK2 = "#52514e"       # secondary ink
-MUTED = "#898781"      # axis ticks / muted
-SURFACE = "#fcfcfb"    # chart surface
-BLUE_RAMP = [(0.0, "#cde2fb"), (0.16, "#86b6ef"), (0.33, "#5598e7"),
-             (0.5, "#2a78d6"), (0.66, "#256abf"), (0.83, "#184f95"),
-             (1.0, "#0d366b")]
+BLUE = "#1f7a3d"       # categorical slot 1 / emphasis / negative
+ORANGE = "#36aac4"     # categorical slot 2
+AQUA = "#7b8770"       # categorical slot 3 (relief rule: direct labels)
+RED = "#36aac4"        # diverging positive pole
+GRAY_FILL = "#d8d7cf"  # de-emphasis fill
+GRID = "#e3e2db"       # gridline hairline
+INK = "#1e252c"        # primary ink
+INK2 = "#555b62"       # secondary ink
+MUTED = "#6a7275"      # axis ticks / muted
+SURFACE = "#fafafa"    # chart surface
+BLUE_RAMP = [(0.0, "#eaf4ec"), (0.16, "#bfe0c5"), (0.33, "#8fc79e"),
+             (0.5, "#5fa976"), (0.66, "#3f8a58"), (0.83, "#276b41"),
+             (1.0, "#14532d")]
 
 FONT = "system-ui, -apple-system, 'Segoe UI', sans-serif"
 
